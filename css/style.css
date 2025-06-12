@@ -4,17 +4,42 @@
   box-sizing: border-box;
 }
 
+/* col  */
 .col-50 {
   width: 50%;
-  height: 100px;
   background-color: aqua;
 }
 
-header {
+/* spaces  */
+.mr-15,
+.menu li {
+  margin-right: 15px;
+}
+
+/* flex & co  */
+.display-flex {
   display: flex;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
+/* classes  */
 .h-left,
 .h-right {
-  padding: 15px;
+  padding: 25px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* selectors  */
+.menu * {
+  display: inline-block;
 }
