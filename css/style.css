@@ -8,10 +8,37 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.big-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* provisory  */
+.bg-lgrey {
+  background-color: lightgray;
+}
+
+.bg-orange {
+  background-color: orangered;
+}
+
+.height-400 {
+  height: 400px;
+}
+
 /* col  */
 .col-50 {
   width: 50%;
   background-color: aqua;
+}
+
+.col-100 {
+  width: 100%;
 }
 
 /* spaces  */
@@ -61,6 +88,6 @@ li {
   margin-right: 15px;
 }
 
-header {
-  vertical-align: middle;
+#jumbotron {
+  padding: 50px auto;
 }
