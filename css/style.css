@@ -57,6 +57,10 @@ body {
   width: calc(100% / 3);
 }
 
+.col-66 {
+  width: calc(100% / 3 +2);
+}
+
 .col-60 {
   width: 60%;
 }
@@ -69,6 +73,24 @@ body {
   width: 20%;
 }
 
+/* basics  */
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
 
 /* spaces  */
 .mr-15 {
@@ -78,6 +100,10 @@ body {
 /* flex & co  */
 .display-flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .justify-content-end {
@@ -93,6 +119,16 @@ body {
   flex-wrap: wrap;
 }
 
+/* IDs  */
+#jumbotron,
+#business,
+#partner,
+#product,
+#users,
+#other {
+  padding: 50px 0;
+}
+
 /* classes  */
 .h-left,
 .h-right {
@@ -104,29 +140,13 @@ body {
   padding: 5px 10px;
   background-color: blue;
   color: white;
+  display: inline-block;
 }
 
-/* basics  */
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-}
 
 /* selectors  */
 .menu *,
 .support * {
   display: inline-block;
   margin-right: 15px;
-}
-
-#jumbotron,
-#business,
-#partner,
-#product,
-#users,
-#other {
-  padding: 50px 0;
 }
