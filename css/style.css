@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.col-50 {
+  width: 50%;
+  height: 100px;
+  background-color: aqua;
+}
+
+header {
+  display: flex;
+}
+
+.h-left,
+.h-right {
+  padding: 15px;
+}
