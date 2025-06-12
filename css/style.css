@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* col  */
 .col-50 {
   width: 50%;
@@ -11,14 +15,17 @@
 }
 
 /* spaces  */
-.mr-15,
-.menu li {
+.mr-15 {
   margin-right: 15px;
 }
 
 /* flex & co  */
 .display-flex {
   display: flex;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
 }
 
 .align-items-center {
@@ -31,6 +38,14 @@
   padding: 25px 15px;
 }
 
+.blue-box {
+  border: 1px solid blue;
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+}
+
+/* basics  */
 a {
   text-decoration: none;
 }
@@ -40,6 +55,12 @@ li {
 }
 
 /* selectors  */
-.menu * {
+.menu *,
+.support * {
   display: inline-block;
+  margin-right: 15px;
+}
+
+header {
+  vertical-align: middle;
 }
