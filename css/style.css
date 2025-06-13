@@ -74,6 +74,12 @@ body {
 }
 
 /* basics  */
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
 h1 {
   font-size: 5rem;
   font-weight: 800;
@@ -95,6 +101,10 @@ img {
 /* spaces  */
 .mr-15 {
   margin-right: 15px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* flex & co  */
@@ -129,12 +139,11 @@ img {
   padding: 50px 0;
 }
 
-/* classes  */
-.h-left,
-.h-right {
-  padding: 25px 15px;
+#jumbotron {
+  padding-top: 150px;
 }
 
+/* classes  */
 .blue-box {
   border: 1px solid blue;
   padding: 5px 10px;
@@ -143,6 +152,31 @@ img {
   display: inline-block;
 }
 
+.circle-check {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 11px;
+}
+
+.circle-check-true {
+  border: 7px solid rgb(28, 12, 255);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.h-left,
+.h-right {
+  padding: 25px 15px;
+}
+
+.monthly .fa-solid {
+  color: blue;
+}
+
+#business .top {
+  border: 1px solid black;
+  padding: 10px 0;
+}
 
 /* selectors  */
 .menu *,
