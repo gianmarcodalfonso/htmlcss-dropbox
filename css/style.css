@@ -6,6 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
 }
 
 .big-container {
@@ -177,7 +178,7 @@ img {
 #product,
 #users,
 #other {
-  padding: 200px 0;
+  padding: 150px 0;
 }
 
 #jumbotron {
@@ -232,9 +233,8 @@ img {
   color: blue;
 }
 
-#business .top {
-  border: 1px solid black;
-  padding: 12px 0;
+.width-100 {
+  width: 100%;
 }
 
 /* selectors  */
@@ -297,4 +297,9 @@ img {
 #product .col-33>*,
 #other * {
   margin-bottom: 20px;
+}
+
+#business .top {
+  border: 1px solid black;
+  padding: 12px 0;
 }
