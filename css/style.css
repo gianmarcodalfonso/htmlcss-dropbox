@@ -148,12 +148,16 @@ img {
   color: blue;
 }
 
-.blue-box {
-  border: 1px solid blue;
+.box {
+  border: 1px solid black;
   padding: 5px 10px;
+  display: inline-block;
+}
+
+.blue.box {
+  border: 1px solid blue;
   background-color: blue;
   color: white;
-  display: inline-block;
 }
 
 .circle-check {
