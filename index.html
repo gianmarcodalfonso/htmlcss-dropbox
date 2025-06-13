@@ -13,7 +13,7 @@
 
 <body>
   <!-- header  -->
-  <header class="display-flex">
+  <header class="display-flex bg-white">
     <div class="h-left col-50 display-flex align-items-center">
       <div class="logo mr-15">
         <a href="#"><img src="./img/logo-small.png" alt=""></a>
@@ -26,16 +26,18 @@
         </ul>
       </div>
     </div>
-    <div class="h-right col-50 display-flex justify-content-end">
+    <div class="h-right col-50 display-flex justify-content-end align-items-center">
       <div class="support">
         <ul>
           <li><a href="#">Supporto</a></li>
           <li><a href="#">Contatta l'ufficio vendite</a></li>
         </ul>
       </div>
-      <div class="personal display-flex">
-        <a class="mr-15" href="#"><span>Accedi</span></a>
-        <div class="blue box">Inizia</div>
+      <div class="personal display-flex align-items-center">
+        <a class="mr-15" href="#">Accedi</a>
+        <a href="#">
+          <div class="blue box">Inizia</div>
+        </a>
       </div>
 
     </div>
@@ -47,25 +49,26 @@
     <!-- jumbotron  -->
     <section id="jumbotron" class="bg-lgrey">
       <div class="row big-container">
-        <div class="col-100 height-400 bg-orange">
+        <div class="col-100 py-20">
           <h1>Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h1>
         </div>
       </div>
       <div class="row big-container">
-        <div class="col-40 height-400 dashed">
-          <p>
+        <div class="col-30 dashed py-20 position-relative">
+          <p class="m-bottom-20">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dignissimos sit ea aut. Temporibus
-            praesentium, ea ex in doloribus aut vitae consectetur corrupti eaque esse. Deleniti, vitae! Omnis, maxime
-            sapiente.
+            praesentium, ea ex in doloribus aut vitae consectetur corrupti eaque esse. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Magnam quas, officiis autem eligendi libero veniam eaque fugit molestias
+            blanditiis laudantium? Sint enim eligendi eos quas minus ea sed fugiat omnis.
           </p>
-          <div class="blue box">Inizia la tua prova gratuita
+          <div class="blue box m-bottom-20">Inizia la tua prova gratuita
           </div>
           <div>
             <a href="#">Annulla in qualsiasi momento</a>
           </div>
           <i class="fa-solid fa-arrow-down"></i>
         </div>
-        <div class="col-60 height-400 dashed">
+        <div class="col-70 dashed py-20">
           <img src="./img/jumbo.png" alt="Jumbo">
         </div>
       </div>
@@ -73,9 +76,9 @@
     </section>
 
     <!-- business  -->
-    <section id="business" class="bg-orange">
+    <section id="business">
       <div class="row container">
-        <div class="col-100 height-100 bg-lgrey">
+        <div class="col-100">
           <h2>Trova il piano business che fa per te</h2>
           <div class="row">
             <div class="monthly">
@@ -88,7 +91,7 @@
             </div>
           </div>
         </div>
-        <div class="col-33 height-400 bg-green dashed">
+        <div class="col-33">
           <div class="top text-center">
             <p><i class="fa-solid fa-user"></i>Singolo</p>
           </div>
@@ -130,7 +133,7 @@
             </div>
           </div>
         </div>
-        <div class="col-33 height-400 bg-orange dashed">
+        <div class="col-33">
           <div class="top text-center">
             <p><i class="fa-solid fa-people-group"></i>Team</p>
           </div>
@@ -181,7 +184,7 @@
             </div>
           </div>
         </div>
-        <div class="col-33 height-400 bg-green dashed">
+        <div class="col-33">
           <div class="top text-center">
             <p><i class="fa-solid fa-building"></i>Azienda</p>
           </div>
@@ -226,28 +229,34 @@
             </div>
           </div>
         </div>
-        <div class="col-100 height-400 bg-lgrey">
+        <div class="col-100">
           <div class="top text-center">
             <p><i class="fa-solid fa-building"></i>Singolo</p>
           </div>
-          <div class="Enterprise-plan">
-            <h3>Enterprise</h3>
-            <p>Contatta l'ufficio vendite per i prezzi</p>
-            <div class="blue-box">Contatta l'ufficio vendite</div>
-            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi
-              scala</p>
+          <div class="plan enterprise-plan">
+            <div class="display-flex justify-content-sbetween">
+              <h3>Enterprise</h3>
+              <div class="blue box">Contatta l'ufficio vendite</div>
+            </div>
+            <div class="enterprise-solutions">
+              <p>Contatta l'ufficio vendite per i prezzi</p>
+
+              <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su
+                qualsiasi
+                scala</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- partner  -->
-    <section id="partner" class="bg-lgrey">
+    <section id="partner">
       <div class="row container">
-        <div class="col-60 bg-orange dashed">
+        <div class="col-60">
           <img src="./img/partner.png" alt="">
         </div>
-        <div class="col-40 bg-green dashed">
+        <div class="col-40">
           <h3>Entra in contatto con un partner Dropbox</h3>
           <p>Trova un partner Dropbox e Hellosign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere
             i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
@@ -257,12 +266,12 @@
     </section>
 
     <!-- product  -->
-    <section id="product" class="bg-orange">
+    <section id="product">
       <div class="row container">
-        <div class="col-100 height-100 dashed bg-green">
+        <div class="col-100">
           <h2>Esegui più operazioni con Dropbox Business</h2>
         </div>
-        <div class="col-33 dashed bg-green">
+        <div class="col-33">
           <div>
             <img src="./img/business-feature-switching-tools.png" alt="">
           </div>
@@ -274,7 +283,7 @@
               tenetur sapiente minus facere dicta alias culpa totam aliquid nam non quae dolorum sequi nemo.</p>
           </div>
         </div>
-        <div class="col-33 dashed bg-green">
+        <div class="col-33">
           <div>
             <img src="./img/business-feature-send-files-it.png" alt="">
           </div>
@@ -286,7 +295,7 @@
               tenetur sapiente minus facere dicta alias culpa totam aliquid nam non quae dolorum sequi nemo.</p>
           </div>
         </div>
-        <div class="col-33 dashed bg-green">
+        <div class="col-33">
           <div>
             <img src="./img/business-feature-coordinate-it.png" alt="">
           </div>
@@ -298,7 +307,7 @@
               tenetur sapiente minus facere dicta alias culpa totam aliquid nam non quae dolorum sequi nemo.</p>
           </div>
         </div>
-        <div class="col-33 dashed bg-green">
+        <div class="col-33">
           <div>
             <img src="./img/business-feature-integrations-it.png" alt="">
           </div>
@@ -310,7 +319,7 @@
               tenetur sapiente minus facere dicta alias culpa totam aliquid nam non quae dolorum sequi nemo.</p>
           </div>
         </div>
-        <div class="col-33 dashed bg-green">
+        <div class="col-33">
           <div>
             <img src="./img/business-feature-multi-device.png" alt="">
           </div>
@@ -322,7 +331,7 @@
               tenetur sapiente minus facere dicta alias culpa totam aliquid nam non quae dolorum sequi nemo.</p>
           </div>
         </div>
-        <div class="col-33 dashed bg-green">
+        <div class="col-33">
           <div>
             <img src="./img/business-feature-security.png" alt="">
           </div>
@@ -340,7 +349,7 @@
     <!-- users  -->
     <section id="users" class="bg-lgrey">
       <div class="row container">
-        <div class="col-100 height-400 bg-orange dashed">
+        <div class="col-100 bg-orange dashed">
           <div>
             <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
           </div>
