@@ -201,7 +201,8 @@ img {
   margin-right: 5px;
 }
 
-.plan-buy a {
+.plan-buy a,
+#users a {
   text-decoration: underline;
   color: blue;
 }
@@ -209,4 +210,8 @@ img {
 #business hr {
   width: 20%;
   color: lightgray;
+}
+
+#other {
+  color: white;
 }
